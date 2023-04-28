@@ -25,7 +25,7 @@ public class VictoryPointSystem : MonoBehaviour
 
     private void DeclareWinner(int playerID)
     {
-        Debug.Log("Player " + (playerID + 1) + " has won the game!");
+        Debug.Log("Player " + (playerID + 1) + " is the bread winner!");
         
     }
 }
