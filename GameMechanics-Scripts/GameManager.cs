@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
 
     public int minDiceRoll = 2;
     public int maxDiceRoll = 12;
+   
 
     void Start()
     {
@@ -47,24 +48,24 @@ public class GameManager : MonoBehaviour
 
     public void BuildSettlement(int playerID)
     {
-        // Implement settlement building logic based on the specific implementation
+       
          victoryPointSystem.AddVictoryPoints(playerID, 1);
     }
 
     public void BuildCity(int playerID)
     {
-        // Implement city building logic based on the specific implementation
+        /
           victoryPointSystem.AddVictoryPoints(playerID, 1);
     }
 
     public void BuildRoad(int playerID)
     {
-        // Implement road building logic based on the specific implementation
+        
     }
 
     public void BuyDevelopmentCard(int playerID)
     {
-        // Implement development card buying logic based on the specific implementation
+       
     }
 
     public void InitiateTrade(int playerID)
