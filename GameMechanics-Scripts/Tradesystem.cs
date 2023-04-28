@@ -23,13 +23,12 @@ public class TradeSystem : MonoBehaviour
         currentTradeOffer = new TradeOffer();
         currentTradeOffer.playerID = playerID;
 
-        // Show the trade UI for the current player to input their trade offer
-
+     
     }
 
     public void ProposeTrade()
     {
-        // Show the trade UI for other players to accept or reject the trade offer
+      
     }
 
     public void AcceptTrade(int acceptingPlayerID)
